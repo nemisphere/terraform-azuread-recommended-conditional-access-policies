@@ -42,3 +42,4 @@ module "default_conditional_access_policies" {
 
   # Custom settings for location policies
   cal001_blocked_location_ids = [azuread_named_location.north_korea.id]
+}
