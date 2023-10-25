@@ -22,8 +22,8 @@ module "default_conditional_access_policies" {
   version = "1.4.1"
 
   # Common configuration
-  group_name_prefix               = "Access-Contoso"
-  emergency_access_upn            = "emergency-access-caa@contoso.onmicrosoft.com"
+  group_name_prefix               = "grp"
+  emergency_access_upn            = "fractured@soteria365.com"
   supported_device_platforms      = ["android", "iOS", "linux", "macOS", "windows"]
   reporting_only_for_all_policies = true
   trusted_locations = [
